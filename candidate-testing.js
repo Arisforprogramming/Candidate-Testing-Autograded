@@ -25,12 +25,11 @@ function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
    candidateAnswer = input.question(question);
 }
-console.log(askQuestion());
 
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-   if(candidateAnswer===correctAnswer){
+   if(candidateAnswer === correctAnswer){
      console.log("Your answer is correcto!");
    }else{
       console.log("DON't you stop trying");
