@@ -50,7 +50,7 @@ function runProgram() {
   gradeQuiz(this.candidateAnswers);
 }
 
- console.log(runProgram()); // I did added run program function console.log
+ //console.log(runProgram()); // I did added run program function console.log nut actually don't neeed 
 
 // ----------- Don't write any code or change any code below this line ---------- //
 module.exports = {
