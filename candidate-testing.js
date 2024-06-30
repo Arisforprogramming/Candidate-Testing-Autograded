@@ -59,7 +59,7 @@ function gradeQuiz(candidateAnswers) {
   
   let grade = Number(pointCount) / Number(questions.length) * 100;  //TODO 3.2 use this variable to calculate the candidates score.
       console.log(`>>> Overall Grade: ${grade}% ${pointCount} of ${questions.length} responses correct) <<<`);
-      if(grade <= 50) {
+      if(grade < 80) {
         console.log(">>> Status: FAILED <<<")
       }else{
         console.log(">>> Status: PASSED <<<")
